@@ -55,8 +55,6 @@
         background: url("../assets/hero-bg.png");
         margin-top: 92px;
         background-repeat: no-repeat;
-        height: 674px;
-        align-items: center;
         justify-content: center;
         text-align: center;
     }
@@ -66,6 +64,7 @@
     }
     
     .hero-content .badge {
+        display: inline-block;
         font-size: 16px;
         font-weight: 500px;
         line-height: 19px;
@@ -74,9 +73,9 @@
         background-color: #FFFFFF;
         color: #30B868;
         border: none;
-        border-radius: 1000px;
-        margin: 90px 565px;
+        text-align: center;
         margin-bottom: 16px;
+        border-radius: 1000px;
     }
     
     .hero-content h1 {
@@ -85,7 +84,6 @@
         line-height: 84px;
         text-align: center;
         color: #FFFFFF;
-        padding: 16px 295px;
         margin-bottom: 16px;
     }
     
@@ -119,7 +117,7 @@
     }
     
     #note .note-container {
-        margin-top: 0px;
+        max-width: 1600px;
     }
     
     .note-container .section-heading {
