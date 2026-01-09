@@ -191,3 +191,90 @@
         color: #627382;
         margin-bottom: 16px;
     }
+    
+    .brain {
+        margin-top: 0px;
+    }
+    
+    .brain .brain-container {
+        display: flex;
+        padding: 120px;
+        max-width: 1360px;
+        gap: 60px;
+    }
+    
+    .brain .brain-container .content {
+        width: 700px;
+        padding: 102px 0px;
+    }
+    
+    .content h5 {
+        width: 600px;
+        font-weight: 400px;
+        line-height: 20px;
+        color: #30B868;
+        align-items: left;
+        margin-bottom: 16px;
+    }
+    
+    .content h2 {
+        font-size: 48px;
+        font-weight: 700px;
+        line-height: 58px;
+        color: #001931;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    
+    .content p {
+        font-size: 16px;
+        line-height: 20px;
+        color: #627382;
+        text-align: left;
+        margin-bottom: 16px;
+        width: 425px;
+        margin-bottom: 40px;
+    }
+    
+    .content .features {
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500px;
+        color: #001931;
+    }
+    
+    .features li {
+        margin-bottom: 16px;
+    }
+    
+    .features .icon {
+        margin-right: 10px;
+    }
+    
+    .challenges {
+        padding: 80px 120px;
+        background-color: #F7F6F2;
+        margin: 2px 120px 120px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+    
+    .challenges-container {
+        max-width: 1360px;
+        text-align: center;
+    }
+    
+    .challenges-container h4 {
+        font-size: 40px;
+        line-height: 48px;
+        color: #001931;
+        margin-bottom: 16px;
+    }
+    
+    .challenges-container p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #627382;
+        margin-bottom: 24px;
+        margin-top: 16px;
+    }
